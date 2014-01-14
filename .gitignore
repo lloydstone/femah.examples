@@ -1,0 +1,8 @@
+obj/
+bin/
+_ReSharper.*/
+*.suo
+*.user
+build/
+BuildOutput/
+*TestResult.xml
