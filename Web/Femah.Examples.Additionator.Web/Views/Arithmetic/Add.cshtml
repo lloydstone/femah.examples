@@ -1,0 +1,17 @@
+﻿@model SomeApplication.Web.Models.AddViewModel
+@using Femah.Core;
+
+@{
+    ViewBag.Title = "Addition done";
+}
+
+<h1>Addition done!</h1>
+
+<div style="padding-left:3em;font-size:3em;margin-bottom:1em;margin-top:1em;">
+        @Model.FirstNumber + @Model.SecondNumber = @Model.Sum
+</div>
+
+<p>
+    <a href="/" class="btn btn-lg @(Femah.IsFeatureOn((int)FeatureSwitches.GreenButtons) ? "btn-success" : "btn-default")">Add More Numbers</a>
+</p>
+
