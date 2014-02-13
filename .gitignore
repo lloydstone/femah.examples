@@ -6,5 +6,5 @@ _ReSharper.*/
 build/
 BuildOutput/
 *TestResult.xml
-packages/
+packages/*
 !packages/repositories.config
