@@ -8,9 +8,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
-using SomeApplication.Web.Models;
+using Femah.Examples.Additionator.Web.Models;
 
-namespace SomeApplication.Web.Controllers
+namespace Femah.Examples.Additionator.Web.Controllers
 {
     [Authorize]
     public class AccountController : Controller

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace SomeApplication.Web.Models
+namespace Femah.Examples.Additionator.Web.Models
 {
     /// <summary>
     /// View model for the Add view.

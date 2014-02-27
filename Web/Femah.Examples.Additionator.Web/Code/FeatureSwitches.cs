@@ -1,4 +1,4 @@
-﻿namespace SomeApplication.Web
+﻿namespace Femah.Examples.Additionator.Web
 {
     public enum FeatureSwitches
     {

@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace SomeApplication.Web
+namespace Femah.Examples.Additionator.Web
 {
     public class FilterConfig
     {

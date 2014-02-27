@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace SomeApplication.Web
+namespace Femah.Examples.Additionator.Web
 {
     public class RouteConfig
     {

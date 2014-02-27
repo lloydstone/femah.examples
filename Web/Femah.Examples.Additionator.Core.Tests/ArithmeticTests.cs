@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Shouldly;
-using SomeApplication.Core;
+using Femah.Examples.Additionator.Core;
 
 namespace Femah.Examples.Additionator.Core.Tests
 {

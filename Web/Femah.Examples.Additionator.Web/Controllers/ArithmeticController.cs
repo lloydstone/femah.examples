@@ -1,12 +1,12 @@
-﻿using SomeApplication.Core;
-using SomeApplication.Web.Models;
+﻿using Femah.Examples.Additionator.Core;
+using Femah.Examples.Additionator.Web.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace SomeApplication.Web.Controllers
+namespace Femah.Examples.Additionator.Web.Controllers
 {
     public class ArithmeticController : Controller
     {
