@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace SomeApplication.Web.Models
+namespace Femah.Examples.Additionator.Web.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

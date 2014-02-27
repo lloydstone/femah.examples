@@ -3,7 +3,7 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Owin;
 
-namespace SomeApplication.Web
+namespace Femah.Examples.Additionator.Web
 {
     public partial class Startup
     {

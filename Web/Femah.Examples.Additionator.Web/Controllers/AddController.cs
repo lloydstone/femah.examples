@@ -4,9 +4,9 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using SomeApplication.Core;
+using Femah.Examples.Additionator.Core;
 
-namespace SomeApplication.Web.Controllers
+namespace Femah.Examples.Additionator.Web.Controllers
 {
     public class AddController : ApiController
     {
