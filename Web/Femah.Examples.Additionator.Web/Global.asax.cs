@@ -7,7 +7,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace SomeApplication.Web
+namespace Femah.Examples.Additionator.Web
 {
     public class MvcApplication : System.Web.HttpApplication
     {
@@ -21,7 +21,7 @@ namespace SomeApplication.Web
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             Femah.Core.Femah.Configure()
-                .FeatureSwitchEnum(typeof(SomeApplication.Web.FeatureSwitches))
+                .FeatureSwitchEnum(typeof(Femah.Examples.Additionator.Web.FeatureSwitches))
                 .Initialise();
         }
     }

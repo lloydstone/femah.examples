@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace SomeApplication.Web.Controllers
+namespace Femah.Examples.Additionator.Web.Controllers
 {
     public class HomeController : Controller
     {
