@@ -1,13 +1,11 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using NUnit.Framework;
 using Shouldly;
-using Femah.Examples.Additionator.Core;
 
 namespace Femah.Examples.Additionator.Core.Tests
 {
-    [TestClass]
     public class ArithmeticTests
     {
-        [TestMethod]
+        [Test]
         public void AddsNumbersCorrectly()
         {
             int a = 1;
@@ -20,7 +18,7 @@ namespace Femah.Examples.Additionator.Core.Tests
             result.ShouldBe(expectedResult);
         }
 
-        [TestMethod]
+        [Test]
         public void AddsNegativeNumbersCorrectly()
         {
             int a = -3;
@@ -32,7 +30,7 @@ namespace Femah.Examples.Additionator.Core.Tests
             result.ShouldBe(expectedResult);
         }
 
-        [TestMethod]
+        [Test]
         public void AddingZeroIsIdempotent()
         {
             int a = 3;
@@ -43,7 +41,7 @@ namespace Femah.Examples.Additionator.Core.Tests
             result.ShouldBe(expectedResult);
         }
 
-        [TestMethod]
+        [Test]
         public void AddingShouldBeCommutative()
         {
             int a = 3;
@@ -56,10 +54,10 @@ namespace Femah.Examples.Additionator.Core.Tests
             firstResult.ShouldBe(secondResult);
         }
 
-        [TestMethod]
-        public void TestSelenium()
-        {
-
-        }
+//        [Test]
+//        public void TestSelenium()
+//        {
+//
+//        }
     }
 }
