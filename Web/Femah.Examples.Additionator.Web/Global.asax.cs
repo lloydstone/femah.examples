@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Http;
+﻿using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
@@ -21,7 +17,7 @@ namespace Femah.Examples.Additionator.Web
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             Femah.Core.Femah.Configure()
-                .FeatureSwitchEnum(typeof(Femah.Examples.Additionator.Web.FeatureSwitches))
+                .FeatureSwitchEnum(typeof(FeatureSwitches))
                 .Initialise();
         }
     }
